@@ -11,7 +11,7 @@ Namespaces: Modulo do Kernel Linux - Isolamento de FileSystem, PIDs(processos), 
 Containers Hoje = something equal to a Modern Chroot (initially made to isolate resources)
 
 Other examples:
-- LXC: Solaris
+- LXC: Solaris Zones
 - Jails: FreeBSD
 
 Lista processos no Linux: ps -ef
