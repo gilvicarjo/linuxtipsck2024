@@ -18,4 +18,12 @@ Other examples:
 
 Lista processos no Linux: ps -ef
 
-Comando mágico para criar uma VM Ubuntu a partir de um Docker Container: docker run -it --rm ubuntu:latest /bin/bash
+Comando mágico para criar uma VM Ubuntu a partir de um Docker Container: 
+```
+docker run -it --rm ubuntu:latest /bin/bash
+```
+
+Comando para installar utilitários do Cgroup: 
+```
+apt-get install cgroup-tools
+```
