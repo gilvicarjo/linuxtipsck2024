@@ -18,12 +18,25 @@ Other examples:
 
 Lista processos no Linux: ps -ef
 
-Comando mágico para criar uma VM Ubuntu a partir de um Docker Container: 
+Para instalar uma VM Ubuntu rapidamente no MacOs
 ```
-docker run -it --rm ubuntu:latest /bin/bash
+brew install --cask multipass
+multipass launch
+multipass shell <instance_name>
 ```
 
 Comando para installar utilitários do Cgroup: 
 ```
 apt-get install cgroup-tools
+```
+
+Verificar comando Cgcreate
+```
+cgcreate -help
+```
+
+Criar grupos de controllers
+```
+cgcreate -g cpu,memory,blkdevices,freezer:giropops
+ls /sys/fs/cgroup/cpu/giropops
 ```
